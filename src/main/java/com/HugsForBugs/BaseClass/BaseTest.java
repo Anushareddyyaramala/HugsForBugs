@@ -12,6 +12,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.HugsForBugs.utils.JavaUtility;
@@ -24,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	
 	protected WebDriverUtility wLib = new WebDriverUtility();
-	JavaUtility jLib = new JavaUtility();
+	protected JavaUtility jLib = new JavaUtility();
 	protected PropertyFileUtility plib=new PropertyFileUtility();
 	LogUtility log=new LogUtility();
 	public WebDriver driver =null;
@@ -34,7 +35,7 @@ public class BaseTest {
 
 	@Parameters("BROWSER")
 	@BeforeClass
-	public void bcConfig(String BROWSER) throws IOException
+	public void bcConfig(@Optional("edge") String BROWSER) throws IOException
 	{
       	//String BROWSER1 = plib.readDataFromPropertyFile("Browser");
 		
@@ -86,12 +87,12 @@ public class BaseTest {
 		Reporter.log("--Signout successfull--", true);
 	}
 	
-	@AfterMethod
-	public void acConfig()
-	{
-		driver.close();
-		Reporter.log("--browser closed successfull--", true);
-		log.info("Browser closed ");
-	}
+//	@AfterMethod
+//	public void acConfig()
+//	{
+//		driver.close();
+//		Reporter.log("--browser closed successfull--", true);
+//		log.info("Browser closed ");
+//	}
 
 }

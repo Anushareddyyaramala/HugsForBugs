@@ -315,7 +315,7 @@ public class WebDriverUtility {
 	public void scrollAction(WebDriver driver)
 	{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,600)");
+		js.executeScript("window.scrollBy(0,900)");
 	}
 	
 	/**

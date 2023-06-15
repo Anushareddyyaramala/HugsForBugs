@@ -7,7 +7,7 @@
   <test thread-count="5" name="Test">
 	  <parameter name="BROWSER" value="edge"></parameter>
     <classes>
-	  <class name="com.HugsForBugs.TestScripts.TestScenario1Test"/>
+	 
       <class name="com.HugsForBugs.TestScripts.TestScenario2Test"/>
     </classes>
   </test> <!-- Test -->

@@ -20,8 +20,8 @@ public class HomePagePOM {
 	@FindBy(id="nav-search-submit-button")
 	public WebElement Searchbutton;
 	
-	@FindBy(xpath="//span[text()='POCO X4 Pro 5G (Yellow, 6GB RAM 128GB Storage)']")
-	public WebElement Item;
+	@FindBy(xpath="//*[@id=\"search\"]/div[1]/div[1]/div/span[1]/div[1]/div[8]/div/div/div/div/div[2]/div[1]/h2/a/span")
+	public WebElement products;
 	
 
 	public WebElement getSearchbox() {
@@ -32,8 +32,8 @@ public class HomePagePOM {
 		return Searchbutton;
 	}
 
-	public WebElement getItem() {
-		return Item;
+	public WebElement getproducts() {
+		return products;
 	}
 	
 

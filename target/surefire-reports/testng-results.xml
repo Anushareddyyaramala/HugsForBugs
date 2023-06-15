@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[--Browser edge launched successfully--]]>
+    </line>
+    <line>
+      <![CDATA[logoutTest => test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[logoutTest => is Passed]]>
+    </line>
+    <line>
+      <![CDATA[--Browser edge launched successfully--]]>
+    </line>
+    <line>
+      <![CDATA[homepageTest => test script execution started]]>
+    </line>
+    <line>
+      <![CDATA[homepageTest => is Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-15T14:08:57 IST" name="Suite" finished-at="2023-06-15T14:10:11 IST" duration-ms="73917">
+    <groups>
+    </groups>
+    <test started-at="2023-06-15T14:08:57 IST" name="Test" finished-at="2023-06-15T14:10:11 IST" duration-ms="73917">
+      <class name="com.HugsForBugs.TestScripts.TestScenario2Test">
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@3e34ace1]" started-at="2023-06-15T14:09:23 IST" name="bcConfig" finished-at="2023-06-15T14:09:25 IST" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser edge launched successfully--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@3e34ace1]" started-at="2023-06-15T14:09:25 IST" name="launch" finished-at="2023-06-15T14:09:34 IST" duration-ms="8434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="homepageTest()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@3e34ace1]" started-at="2023-06-15T14:09:34 IST" name="homepageTest" finished-at="2023-06-15T14:10:11 IST" duration-ms="37813" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[homepageTest => test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[homepageTest => is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homepageTest -->
+      </class> <!-- com.HugsForBugs.TestScripts.TestScenario2Test -->
+      <class name="com.HugsForBugs.TestScripts.TestScenario1Test">
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@15eebbff]" started-at="2023-06-15T14:08:58 IST" name="bcConfig" finished-at="2023-06-15T14:09:02 IST" duration-ms="4771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[--Browser edge launched successfully--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@15eebbff]" started-at="2023-06-15T14:09:02 IST" name="launch" finished-at="2023-06-15T14:09:11 IST" duration-ms="8409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="logoutTest()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@15eebbff]" started-at="2023-06-15T14:09:11 IST" name="logoutTest" finished-at="2023-06-15T14:09:22 IST" duration-ms="11610" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logoutTest => test script execution started]]>
+            </line>
+            <line>
+              <![CDATA[logoutTest => is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- com.HugsForBugs.TestScripts.TestScenario1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

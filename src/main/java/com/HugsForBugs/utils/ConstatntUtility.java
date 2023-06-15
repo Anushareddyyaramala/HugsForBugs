@@ -6,7 +6,7 @@ public interface ConstatntUtility {
 	String Url = "https://www.amazon.in/";
 	String Username = "7036953585";
 	String Password = "Mbbasha123@";
-	String item = "Xiomi poco X3 pro";
+	String item = "homedecor below 100";
 	String ExpectedUrl = "Amazon Sign In";
 	String FirstName = "Anusha.Y";
 	String Mobile = "9032790689";
