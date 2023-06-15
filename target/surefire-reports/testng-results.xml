@@ -20,12 +20,12 @@
       <![CDATA[homepageTest => is Passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-15T14:08:57 IST" name="Suite" finished-at="2023-06-15T14:10:11 IST" duration-ms="73917">
+  <suite started-at="2023-06-15T14:17:22 IST" name="Suite" finished-at="2023-06-15T14:18:13 IST" duration-ms="51432">
     <groups>
     </groups>
-    <test started-at="2023-06-15T14:08:57 IST" name="Test" finished-at="2023-06-15T14:10:11 IST" duration-ms="73917">
+    <test started-at="2023-06-15T14:17:22 IST" name="Test" finished-at="2023-06-15T14:18:13 IST" duration-ms="51432">
       <class name="com.HugsForBugs.TestScripts.TestScenario2Test">
-        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@3e34ace1]" started-at="2023-06-15T14:09:23 IST" name="bcConfig" finished-at="2023-06-15T14:09:25 IST" duration-ms="2598" status="PASS">
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@1bb1fde8]" started-at="2023-06-15T14:17:37 IST" name="bcConfig" finished-at="2023-06-15T14:17:39 IST" duration-ms="2449" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@3e34ace1]" started-at="2023-06-15T14:09:25 IST" name="launch" finished-at="2023-06-15T14:09:34 IST" duration-ms="8434" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@1bb1fde8]" started-at="2023-06-15T14:17:39 IST" name="launch" finished-at="2023-06-15T14:17:45 IST" duration-ms="5362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="homepageTest()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@3e34ace1]" started-at="2023-06-15T14:09:34 IST" name="homepageTest" finished-at="2023-06-15T14:10:11 IST" duration-ms="37813" status="PASS">
+        <test-method signature="homepageTest()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario2Test@1bb1fde8]" started-at="2023-06-15T14:17:45 IST" name="homepageTest" finished-at="2023-06-15T14:18:13 IST" duration-ms="28496" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[homepageTest => test script execution started]]>
@@ -55,7 +55,7 @@
         </test-method> <!-- homepageTest -->
       </class> <!-- com.HugsForBugs.TestScripts.TestScenario2Test -->
       <class name="com.HugsForBugs.TestScripts.TestScenario1Test">
-        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@15eebbff]" started-at="2023-06-15T14:08:58 IST" name="bcConfig" finished-at="2023-06-15T14:09:02 IST" duration-ms="4771" status="PASS">
+        <test-method is-config="true" signature="bcConfig(java.lang.String)[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@6bb75258]" started-at="2023-06-15T14:17:22 IST" name="bcConfig" finished-at="2023-06-15T14:17:25 IST" duration-ms="2940" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,11 +69,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@15eebbff]" started-at="2023-06-15T14:09:02 IST" name="launch" finished-at="2023-06-15T14:09:11 IST" duration-ms="8409" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@6bb75258]" started-at="2023-06-15T14:17:25 IST" name="launch" finished-at="2023-06-15T14:17:30 IST" duration-ms="5203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="logoutTest()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@15eebbff]" started-at="2023-06-15T14:09:11 IST" name="logoutTest" finished-at="2023-06-15T14:09:22 IST" duration-ms="11610" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:com.HugsForBugs.TestScripts.TestScenario1Test@6bb75258]" started-at="2023-06-15T14:17:30 IST" name="logoutTest" finished-at="2023-06-15T14:17:37 IST" duration-ms="6805" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logoutTest => test script execution started]]>
